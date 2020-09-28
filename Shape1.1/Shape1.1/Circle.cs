@@ -24,23 +24,24 @@ namespace ShapeLib
         }
         public override float Circumference
         {
-            get => Circumference;
-            set => Circumference = MathF.PI * (Radius * 2);
-        }
-        public override string ToString()
-        {
-
-            string output = $"circle @({Center2D.X.ToString("0.0")}, {Center2D.Y.ToString("0.0")}): r = {Radius.ToString("0.0")}";
-            return output;
+            get
+            {
+                return 2 * MathF.PI * Radius;
+            }
         }
         public override float Area
         {
             get
             {
-                float AreaCircle = MathF.PI * Radius * Radius;
-                return AreaCircle;
+                return MathF.PI * (Radius * Radius);
             }
 
+        }
+        public override string ToString()
+        {
+
+            string output = $"circle @({Center2D.X:0.0}, {Center2D.Y:0.0}): r = {Radius:0.0}";
+            return output;
         }
     }
 }

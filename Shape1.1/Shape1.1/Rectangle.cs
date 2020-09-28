@@ -41,25 +41,32 @@ namespace ShapeLib
         }
         public override float Circumference
         {
-            get => Circumference;
-            set
+            get
             {
-                if (IsSquare)
+                if (Width > 0)
                 {
-                    if (Width > 0)
-                    {
-                        Circumference = Width * 4;
-                    }
-                    else
-                    {
-                        Circumference = Size.X * 4;
-                    }
+                    return Width * 4f;
                 }
                 else
                 {
-                    Circumference = (Size.X * 2) + (Size.Y * 2);
+                    return (Size.X * 2f) + (Size.Y * 2f);
                 }
             }
+        }
+        public override float Area
+        {
+            get
+            {
+                if (Width > 0)
+                {
+                    return Width * Width;
+                }
+                else
+                {
+                    return Size.X * Size.Y;
+                }
+            }
+
         }
         public override string ToString()
         {
@@ -82,32 +89,6 @@ namespace ShapeLib
                 output = $"rectangle @({Center2D.X.ToString("0.0")}, {Center2D.Y.ToString("0.0")}): w = {Size.X.ToString("0.0")}, h = {Size.Y.ToString("0.0")}";
                 return output;
             }
-        }
-        public override float Area
-        {
-            get
-            {
-                if (_IsSquare)
-                {
-                    float AreaSquare;
-                    if (Width > 0)
-                    {
-                        AreaSquare = Width * 4;
-                        return AreaSquare;
-                    }
-                    else
-                    {
-                        AreaSquare = Size.X * 4;
-                        return AreaSquare;
-                    }
-                }
-                else
-                {
-                    float AreaRectangle = (Size.X * 2) + (Size.Y * 2);
-                    return AreaRectangle;
-                }
-            }
-
         }
     }
 }

@@ -8,20 +8,25 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\chris\\.nuget\\packages\\": {}
+    "C:\\Users\\m_v_j\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chris\\source\\repos\\Shape1.1\\Shape1.1\\ShapeLib.csproj",
+      "projectUniqueName": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1\\Shape1.1\\Shape1.1\\ShapeLib.csproj",
       "projectName": "ShapeLib",
-      "projectPath": "C:\\Users\\chris\\source\\repos\\Shape1.1\\Shape1.1\\ShapeLib.csproj",
-      "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chris\\source\\repos\\Shape1.1\\Shape1.1\\obj\\",
+      "projectPath": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1\\Shape1.1\\Shape1.1\\ShapeLib.csproj",
+      "packagesPath": "C:\\Users\\m_v_j\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1\\Shape1.1\\Shape1.1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\m_v_j\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
