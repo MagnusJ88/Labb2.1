@@ -7,7 +7,7 @@ namespace ShapeLib
 {
     public class Cuboid : Shape3D
     {
-        private bool isCube = false;
+        private bool _isCube = false;
         private Vector3 _center;
         private Vector3 _size;
         private float _width;
@@ -17,12 +17,12 @@ namespace ShapeLib
             _size = size;
             if (size.X == size.Y && size.Y == size.Z)
             {
-                isCube = true;
+                _isCube = true;
             }
         }
         public Cuboid(Vector3 center, float width)
         {
-            isCube = true;
+            _isCube = true;
             _center = center;
             _width = width;
         }
@@ -64,22 +64,22 @@ namespace ShapeLib
         public override string ToString()
         {
             string output;
-            if (isCube)
+            if (_isCube)
             {
                 if (_width > 0)
                 {
-                    output = $"cube @({_center.X:0.0}, {_center.Y:0.0}, {_center.Z:0.0}): w={_width:0.0}, h={_width:0.0}, l={_width:0.0}";
+                    output = $"cube @({_center.X:0.0}, {_center.Y:0.0}, {_center.Z:0.0}): w = {_width:0.0}, h = {_width:0.0}, l = {_width:0.0}";
                     return output;
                 }
                 else
                 {
-                    output = $"cube @({_center.X:0.0}, {_center.Y:0.0}, {_center.Z:0.0}): w={_size.X:0.0}, h={_size.Y:0.0}, l={_size.Z:0.0}";
+                    output = $"cube @({_center.X:0.0}, {_center.Y:0.0}, {_center.Z:0.0}): w = {_size.X:0.0}, h = {_size.Y:0.0}, l = {_size.Z:0.0}";
                     return output;
                 }
             }
             else
             {
-                output =  $"cuboid @({ _center.X:0.0}, { _center.Y:0.0}, { _center.Z:0.0}): w ={ _size.X:0.0}, h ={ _size.Y:0.0}, l ={ _size.Z:0.0}";
+                output =  $"cuboid @({ _center.X:0.0}, { _center.Y:0.0}, { _center.Z:0.0}): w = { _size.X:0.0}, h = { _size.Y:0.0}, l = { _size.Z:0.0}";
                 return output;
             }
         }

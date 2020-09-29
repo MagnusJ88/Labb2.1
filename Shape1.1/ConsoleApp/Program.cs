@@ -26,14 +26,15 @@ namespace ConsoleApp
             Cuboid cub = new Cuboid(new Vector3(1.0f, 2.0f, 1.0f), new Vector3(3.0f, 5.0f, 8.0f));
             Console.WriteLine(cub);
             Console.WriteLine(cub.Area);
-            Console.WriteLine(cub.Volume);*/
+            Console.WriteLine(cub.Volume);
 
             Sphere s = new Sphere(new Vector3(1.0f, 2.0f, 3.0f), 11f);
             Console.WriteLine(s);
             Console.WriteLine(s.Area);
-            Console.WriteLine(s.Volume);
+            Console.WriteLine(s.Volume);*/
 
-            Shape.GenerateShape(new Vector3(3.0f, 4.0f, 5.0f));
+            Console.WriteLine(Shape.GenerateShape(new Vector3(3.0f, 4.0f, 5.0f)));
+            Console.WriteLine(Shape.GenerateShape());
 
         }
     }

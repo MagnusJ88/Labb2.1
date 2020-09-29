@@ -4,52 +4,47 @@ namespace ShapeLib
 {
     public class Rectangle : Shape2D
     {
-        private float Width;
-        private Vector2 Size;
-        private bool _IsSquare = false;
-
+        private float _width;
+        private Vector2 _size;
+        private bool _isSquare = false;
         public Rectangle(Vector2 center, float width)
         {
             Center2D = center;
-            Width = width;
-            _IsSquare = true;
+            _width = width;
+            _isSquare = true;
         }
-
         public Rectangle(Vector2 center, Vector2 size)
         {
             Center2D = center;
-            Size = size;
+            _size = size;
             if (size.X == size.Y)
             {
-                _IsSquare = true;
+                _isSquare = true;
             }
         }
-
         public bool IsSquare
         {
-            get => _IsSquare;
+            get => _isSquare;
         }
         public override Vector3 Center
         {
-
             get
             {
                 Vector3 CenterTemp = new Vector3(Center2D, 0f);
                 return CenterTemp;
             }
-
         }
         public override float Circumference
         {
             get
             {
-                if (Width > 0)
+                if (_width > 0)
                 {
-                    return Width * 4f;
+                    return _width * 4f;
                 }
                 else
                 {
-                    return (Size.X * 2f) + (Size.Y * 2f);
+                    return (_size.X * 2f) + (_size.Y * 2f);
                 }
             }
         }
@@ -57,36 +52,35 @@ namespace ShapeLib
         {
             get
             {
-                if (Width > 0)
+                if (_width > 0)
                 {
-                    return Width * Width;
+                    return _width * _width;
                 }
                 else
                 {
-                    return Size.X * Size.Y;
+                    return _size.X * _size.Y;
                 }
             }
-
         }
         public override string ToString()
         {
             string output;
             if (IsSquare)
             {
-                if (Width > 0)
+                if (_width > 0)
                 {
-                    output = $"square @({Center2D.X.ToString("0.0")}, {Center2D.Y.ToString("0.0")}): w = {Width.ToString("0.0")}, h = {Width.ToString("0.0")}";
+                    output = $"square @({Center2D.X.ToString("0.0")}, {Center2D.Y.ToString("0.0")}): w = {_width.ToString("0.0")}, h = {_width.ToString("0.0")}";
                     return output;
                 }
                 else
                 {
-                    output = $"square @({Center2D.X.ToString("0.0")}, {Center2D.Y.ToString("0.0")}): w = {Size.X.ToString("0.0")}, h = {Size.Y.ToString("0.0")}";
+                    output = $"square @({Center2D.X.ToString("0.0")}, {Center2D.Y.ToString("0.0")}): w = {_size.X.ToString("0.0")}, h = {_size.Y.ToString("0.0")}";
                     return output;
                 }
             }
             else
             {
-                output = $"rectangle @({Center2D.X.ToString("0.0")}, {Center2D.Y.ToString("0.0")}): w = {Size.X.ToString("0.0")}, h = {Size.Y.ToString("0.0")}";
+                output = $"rectangle @({Center2D.X.ToString("0.0")}, {Center2D.Y.ToString("0.0")}): w = {_size.X.ToString("0.0")}, h = {_size.Y.ToString("0.0")}";
                 return output;
             }
         }

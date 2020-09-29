@@ -9,7 +9,6 @@ namespace ShapeLib
     {
         private float _radius;
         private Vector3 _center;
-
         public Sphere(Vector3 center, float radius)
         {
             _radius = radius;
