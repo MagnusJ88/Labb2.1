@@ -35,9 +35,9 @@ namespace ConsoleApp
                     }
                 }
             }
-            Console.WriteLine($"The total circumference of all triangles in the list is: {totalCircumferenceTriangle}");
-            Console.WriteLine($"The average area of all shapes is: {totalArea / shapeList.Count}");
-            Console.WriteLine($"The shape with the largest volume is a {shapeList[indexOfMaxVolume]} with a volume of {maxVolume:0.0}");
+            Console.WriteLine($"The total circumference of all triangles in the list is: {totalCircumferenceTriangle:0.0}");
+            Console.WriteLine($"The average area of all shapes is: {totalArea / shapeList.Count:0.0}");
+            Console.WriteLine($"The shape with the largest volume is a {shapeList[indexOfMaxVolume]} with a volume of {maxVolume:0.00}");
         }
     }
 }

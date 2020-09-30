@@ -15,8 +15,8 @@ namespace ShapeLib
         {
             get
             {
-                Vector3 CenterTemp = new Vector3(Center2D, 0f);
-                return CenterTemp;
+                Vector3 center = new Vector3(Center2D, 0f);
+                return center;
             }
         }
         public override float Circumference

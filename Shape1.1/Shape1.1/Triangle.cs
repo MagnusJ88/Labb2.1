@@ -36,7 +36,7 @@ namespace ShapeLib
         }
         public override string ToString()
         {
-            string output = $"triangle @({((_p1.X + _p2.X + _p3.X) / 3f):0.0}, {((_p1.Y + _p2.Y + _p3.Y) / 3f):0.0)}: p1({_p1.X:0.0}, {_p1.Y:0.0}), p2({_p2.X:0.0}, {_p2.Y:0.0}), p3({_p3.X:0.0}, {_p3.Y:0.0})";
+            string output = $"triangle @({(_p1.X + _p2.X + _p3.X) / 3f:0.0}, {(_p1.Y + _p2.Y + _p3.Y) / 3f:0.0)}: p1({_p1.X:0.0}, {_p1.Y:0.0}), p2({_p2.X:0.0}, {_p2.Y:0.0}), p3({_p3.X:0.0}, {_p3.Y:0.0})";
             return output;
         }
     }

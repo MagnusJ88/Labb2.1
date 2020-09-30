@@ -1,4 +1,5 @@
-﻿using System.Numerics;
+﻿using System;
+using System.Numerics;
 
 namespace ShapeLib
 {
@@ -10,7 +11,14 @@ namespace ShapeLib
         public Rectangle(Vector2 center, float width)
         {
             Center2D = center;
-            _width = width;
+            if (width != 0)
+            {
+                _width = width;
+            }
+            else
+            {
+                _width = 0.1f;
+            }
             _isSquare = true;
         }
         public Rectangle(Vector2 center, Vector2 size)
@@ -30,8 +38,8 @@ namespace ShapeLib
         {
             get
             {
-                Vector3 CenterTemp = new Vector3(Center2D, 0f);
-                return CenterTemp;
+                Vector3 center = new Vector3(Center2D, 0f);
+                return center;
             }
         }
         public override float Circumference
@@ -65,23 +73,22 @@ namespace ShapeLib
         public override string ToString()
         {
             string output;
-            //todo ändra utskriften!
             if (IsSquare)
             {
                 if (_width > 0)
                 {
-                    output = $"square @({Center2D.X.ToString("0.0")}, {Center2D.Y.ToString("0.0")}): w = {_width.ToString("0.0")}, h = {_width.ToString("0.0")}";
+                    output = $"square @({Center2D.X:0.0}, {Center2D.Y:0.0}): w = {_width:0.0}, h = {_width:0.0}";
                     return output;
                 }
                 else
                 {
-                    output = $"square @({Center2D.X.ToString("0.0")}, {Center2D.Y.ToString("0.0")}): w = {_size.X.ToString("0.0")}, h = {_size.Y.ToString("0.0")}";
+                    output = $"square @({Center2D.X:0.0}, {Center2D.Y:0.0}): w = {_size.X:0.0}, h = {_size.Y:0.0}";
                     return output;
                 }
             }
             else
             {
-                output = $"rectangle @({Center2D.X.ToString("0.0")}, {Center2D.Y.ToString("0.0")}): w = {_size.X.ToString("0.0")}, h = {_size.Y.ToString("0.0")}";
+                output = $"rectangle @({Center2D.X:0.0}, {Center2D.Y:0.0}): w = {_size.X:0.0}, h = {_size.Y:0.0}";
                 return output;
             }
         }

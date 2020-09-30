@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1\\Shape1.1\\Shape1.1\\ShapeLib.csproj",
+      "projectUniqueName": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1.2\\Shape1.1\\Shape1.1\\ShapeLib.csproj",
       "projectName": "ShapeLib",
-      "projectPath": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1\\Shape1.1\\Shape1.1\\ShapeLib.csproj",
+      "projectPath": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1.2\\Shape1.1\\Shape1.1\\ShapeLib.csproj",
       "packagesPath": "C:\\Users\\m_v_j\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1\\Shape1.1\\Shape1.1\\obj\\",
+      "outputPath": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1.2\\Shape1.1\\Shape1.1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

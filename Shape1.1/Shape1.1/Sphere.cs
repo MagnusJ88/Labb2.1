@@ -25,14 +25,14 @@ namespace ShapeLib
         {
             get
             {
-                return (4f * MathF.PI * MathF.Pow(_radius, 3f) / 3);
+                return 4.0f * MathF.PI * MathF.Pow(_radius, 3.0f) / 3.0f;
             }
         }
         public override float Area
         {
             get
             {
-                return (4f * MathF.PI * MathF.Pow(_radius, 2));
+                return 4f * MathF.PI * MathF.Pow(_radius, 2.0f);
             }
         }
         public override string ToString()

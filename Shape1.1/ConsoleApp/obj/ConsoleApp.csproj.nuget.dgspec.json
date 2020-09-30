@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1\\Shape1.1\\ConsoleApp\\ConsoleApp.csproj": {}
+    "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1.2\\Shape1.1\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1\\Shape1.1\\ConsoleApp\\ConsoleApp.csproj": {
+    "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1.2\\Shape1.1\\ConsoleApp\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1\\Shape1.1\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1.2\\Shape1.1\\ConsoleApp\\ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1\\Shape1.1\\ConsoleApp\\ConsoleApp.csproj",
+        "projectPath": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1.2\\Shape1.1\\ConsoleApp\\ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\m_v_j\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1\\Shape1.1\\ConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1.2\\Shape1.1\\ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1\\Shape1.1\\Shape1.1\\ShapeLib.csproj": {
-                "projectPath": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1\\Shape1.1\\Shape1.1\\ShapeLib.csproj"
+              "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1.2\\Shape1.1\\Shape1.1\\ShapeLib.csproj": {
+                "projectPath": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1.2\\Shape1.1\\Shape1.1\\ShapeLib.csproj"
               }
             }
           }
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1\\Shape1.1\\Shape1.1\\ShapeLib.csproj": {
+    "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1.2\\Shape1.1\\Shape1.1\\ShapeLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1\\Shape1.1\\Shape1.1\\ShapeLib.csproj",
+        "projectUniqueName": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1.2\\Shape1.1\\Shape1.1\\ShapeLib.csproj",
         "projectName": "ShapeLib",
-        "projectPath": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1\\Shape1.1\\Shape1.1\\ShapeLib.csproj",
+        "projectPath": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1.2\\Shape1.1\\Shape1.1\\ShapeLib.csproj",
         "packagesPath": "C:\\Users\\m_v_j\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1\\Shape1.1\\Shape1.1\\obj\\",
+        "outputPath": "C:\\Users\\m_v_j\\Source\\Repos\\Labb2.1.2\\Shape1.1\\Shape1.1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -22,9 +22,20 @@ namespace ShapeLib
         }
         public Cuboid(Vector3 center, float width)
         {
-            _isCube = true;
             _center = center;
-            _width = width;
+            if (width != 0)
+            {
+                _width = width;
+            }
+            else
+            {
+                _width = 0.1f;
+            }
+            _isCube = true;
+        }
+        public bool IsCube
+        {
+            get => _isCube;
         }
         public override Vector3 Center
         {
