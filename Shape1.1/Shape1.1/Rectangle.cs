@@ -65,6 +65,7 @@ namespace ShapeLib
         public override string ToString()
         {
             string output;
+            //todo ändra utskriften!
             if (IsSquare)
             {
                 if (_width > 0)
