@@ -13,7 +13,7 @@ namespace ShapeLib
             float rndX = (float)rnd.NextDouble() * 10;
             float rndY = (float)rnd.NextDouble() * 10;
             float rndZ = (float)rnd.NextDouble() * 10;
-
+            //todo en rnd för width?
             Vector2 center2D = new Vector2(center.X, center.Y);
 
             int rndShape = rnd.Next(0, 7);
