@@ -5,6 +5,7 @@ namespace ShapeLib
 {
     public abstract class Shape
     {
+
         public abstract Vector3 Center { get; }
         public abstract float Area { get; }
         private static Random rnd = new Random();
@@ -56,8 +57,8 @@ namespace ShapeLib
                 case 2:
                     return new Rectangle(new Vector2(rndX, rndY), new Vector2(rndWidth, rndHeight));
                 case 3:
-                    return new Triangle(new Vector2(rndX, rndY), 
-                            new Vector2((float)rnd.NextDouble() * 10, (float)rnd.NextDouble() * 10), 
+                    return new Triangle(new Vector2(rndX, rndY),
+                            new Vector2((float)rnd.NextDouble() * 10, (float)rnd.NextDouble() * 10),
                             new Vector2((float)rnd.NextDouble() * 10, (float)rnd.NextDouble() * 10));
                 case 4:
                     return new Cuboid(new Vector3(rndX, rndY, rndZ), rndWidth);
@@ -67,5 +68,10 @@ namespace ShapeLib
                     return new Sphere(new Vector3(rndX, rndY, rndZ), rndWidth);
             }
         }
+        
+
     }
 }
+
+
+

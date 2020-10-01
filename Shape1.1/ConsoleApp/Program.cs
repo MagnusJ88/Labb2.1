@@ -2,8 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Numerics;
-using System.Reflection.Metadata.Ecma335;
-using System.Runtime.CompilerServices;
 
 namespace ConsoleApp
 {
@@ -34,10 +32,22 @@ namespace ConsoleApp
                         indexOfMaxVolume = i;
                     }
                 }
+
             }
             Console.WriteLine($"The total circumference of all triangles in the list is: {totalCircumferenceTriangle:0.0}");
             Console.WriteLine($"The average area of all shapes is: {totalArea / shapeList.Count:0.0}");
             Console.WriteLine($"The shape with the largest volume is a {shapeList[indexOfMaxVolume]} with a volume of {maxVolume:0.00}");
+
+            Triangle t = new Triangle(Vector2.Zero, Vector2.One, new Vector2(2.0f, .5f));
+
+            int count = 1;
+            foreach (Vector2 v in t)
+            {
+                Console.WriteLine($"Triangle {count} position is:{v.X:0.0}, {v.Y:0.0}");
+                count++;
+            }
+
+
         }
     }
 }
