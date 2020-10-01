@@ -45,6 +45,7 @@ namespace ConsoleApp
             {
                 Console.WriteLine($"Triangle {count} position is:{v.X:0.0}, {v.Y:0.0}");
                 count++;
+
             }
 
 
