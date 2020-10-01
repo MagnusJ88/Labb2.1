@@ -32,7 +32,6 @@ namespace ConsoleApp
                         indexOfMaxVolume = i;
                     }
                 }
-
             }
             Console.WriteLine($"The total circumference of all triangles in the list is: {totalCircumferenceTriangle:0.0}");
             Console.WriteLine($"The average area of all shapes is: {totalArea / shapeList.Count:0.0}");
@@ -43,12 +42,9 @@ namespace ConsoleApp
             int count = 1;
             foreach (Vector2 v in t)
             {
-                Console.WriteLine($"Triangle {count} position is:{v.X:0.0}, {v.Y:0.0}");
+                Console.WriteLine($"Vector2 {count} is: {v.X}, {v.Y}");
                 count++;
-
             }
-
-
         }
     }
 }

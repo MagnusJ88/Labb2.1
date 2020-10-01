@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chris\\source\\repos\\Labb2.16\\Shape1.1\\ConsoleApp\\ConsoleApp.csproj": {}
+    "C:\\Users\\chris\\Source\\Repos\\Labb2.17\\Shape1.1\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chris\\source\\repos\\Labb2.16\\Shape1.1\\ConsoleApp\\ConsoleApp.csproj": {
+    "C:\\Users\\chris\\Source\\Repos\\Labb2.17\\Shape1.1\\ConsoleApp\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chris\\source\\repos\\Labb2.16\\Shape1.1\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\chris\\Source\\Repos\\Labb2.17\\Shape1.1\\ConsoleApp\\ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "C:\\Users\\chris\\source\\repos\\Labb2.16\\Shape1.1\\ConsoleApp\\ConsoleApp.csproj",
+        "projectPath": "C:\\Users\\chris\\Source\\Repos\\Labb2.17\\Shape1.1\\ConsoleApp\\ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chris\\source\\repos\\Labb2.16\\Shape1.1\\ConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\chris\\Source\\Repos\\Labb2.17\\Shape1.1\\ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\chris\\source\\repos\\Labb2.16\\Shape1.1\\Shape1.1\\ShapeLib.csproj": {
-                "projectPath": "C:\\Users\\chris\\source\\repos\\Labb2.16\\Shape1.1\\Shape1.1\\ShapeLib.csproj"
+              "C:\\Users\\chris\\Source\\Repos\\Labb2.17\\Shape1.1\\Shape1.1\\ShapeLib.csproj": {
+                "projectPath": "C:\\Users\\chris\\Source\\Repos\\Labb2.17\\Shape1.1\\Shape1.1\\ShapeLib.csproj"
               }
             }
           }
@@ -60,14 +60,14 @@
         }
       }
     },
-    "C:\\Users\\chris\\source\\repos\\Labb2.16\\Shape1.1\\Shape1.1\\ShapeLib.csproj": {
+    "C:\\Users\\chris\\Source\\Repos\\Labb2.17\\Shape1.1\\Shape1.1\\ShapeLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chris\\source\\repos\\Labb2.16\\Shape1.1\\Shape1.1\\ShapeLib.csproj",
+        "projectUniqueName": "C:\\Users\\chris\\Source\\Repos\\Labb2.17\\Shape1.1\\Shape1.1\\ShapeLib.csproj",
         "projectName": "ShapeLib",
-        "projectPath": "C:\\Users\\chris\\source\\repos\\Labb2.16\\Shape1.1\\Shape1.1\\ShapeLib.csproj",
+        "projectPath": "C:\\Users\\chris\\Source\\Repos\\Labb2.17\\Shape1.1\\Shape1.1\\ShapeLib.csproj",
         "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chris\\source\\repos\\Labb2.16\\Shape1.1\\Shape1.1\\obj\\",
+        "outputPath": "C:\\Users\\chris\\Source\\Repos\\Labb2.17\\Shape1.1\\Shape1.1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",

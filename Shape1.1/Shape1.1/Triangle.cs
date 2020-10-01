@@ -42,7 +42,7 @@ namespace ShapeLib
             return output;
         }
 
-        private IEnumerable<Vector2> Points()
+        private IEnumerable<Vector2> Position()
         {
             yield return _p1;
             yield return _p2;
@@ -51,7 +51,7 @@ namespace ShapeLib
 
         public IEnumerator<Vector2> GetEnumerator()
         {
-            return Points().GetEnumerator();
+            return Position().GetEnumerator();
         }
 
         IEnumerator IEnumerable.GetEnumerator()

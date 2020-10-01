@@ -5,7 +5,6 @@ namespace ShapeLib
 {
     public abstract class Shape
     {
-
         public abstract Vector3 Center { get; }
         public abstract float Area { get; }
         private static Random rnd = new Random();
@@ -68,8 +67,6 @@ namespace ShapeLib
                     return new Sphere(new Vector3(rndX, rndY, rndZ), rndWidth);
             }
         }
-        
-
     }
 }
 
